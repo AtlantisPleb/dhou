@@ -5,7 +5,11 @@ export const FullScreenHero = () => {
       style={{ backgroundColor: 'rgb(21,23,28)' }}
     >
       <div className='-mt-16 flex flex-col justify-center items-center'>
-        <img className='max-w-xl' src='/img/logo-rough.jpg' alt='' />
+        <img
+          className='max-w-lg mb-8'
+          src='/img/main-logo.png'
+          alt='Digital Humanitarians Organising for Ukraine'
+        />
         <div className='rounded-md shadow'>
           <a
             href='https://docs.google.com/document/d/1mVh71Pu82yix8UzUZY1N_pB6gv2byVJhwQERpRHYioI/edit#heading=h.q2b1jbqhh0az'
@@ -18,7 +22,7 @@ export const FullScreenHero = () => {
         </div>
         <a
           href='https://discord.com/invite/xTxqZGAj'
-          className='mt-6 w-64 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
+          className='mt-6 w-64 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sapphire bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
           target='_blank'
           rel='noreferrer'
         >
