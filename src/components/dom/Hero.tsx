@@ -135,10 +135,11 @@ export default function Example() {
               <div className='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
                 <div className='rounded-md shadow'>
                   <a
-                    href='#'
+                    href='https://docs.google.com/document/d/1mVh71Pu82yix8UzUZY1N_pB6gv2byVJhwQERpRHYioI/edit#heading=h.q2b1jbqhh0az'
                     className='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10'
+                    target='_blank'
                   >
-                    Get started
+                    Read the intro
                   </a>
                 </div>
                 <div className='mt-3 sm:mt-0 sm:ml-3'>
@@ -156,8 +157,9 @@ export default function Example() {
       </div>
       <div className='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
         <img
-          className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-          src='https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80'
+          className='h-56 w-full object-contain object-right sm:h-72 md:h-96 lg:w-full lg:h-full'
+          src='/img/logo-rough.jpg'
+          style={{ backgroundColor: 'rgb(21,23,28)' }}
           alt=''
         />
       </div>

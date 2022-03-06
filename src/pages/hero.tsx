@@ -2,7 +2,6 @@ import dynamic from 'next/dynamic'
 // Step 5 - delete Instructions components
 import Instructions from '@/components/dom/Instructions'
 import Hero from '@/components/dom/Hero'
-import { FullScreenHero } from '@/components/dom/FullScreenHero'
 // import Shader from '@/components/canvas/Shader/Shader'
 
 // Dynamic import is used to prevent a payload when the website start that will include threejs r3f etc..
@@ -19,7 +18,7 @@ const DOM = () => {
     // Step 5 - delete Instructions components
     // <Instructions />
     <>
-      <FullScreenHero />
+      <Hero />
     </>
   )
 }
@@ -44,7 +43,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Digital Humanitarians',
+      title: 'Index',
     },
   }
 }
