@@ -22,7 +22,7 @@ export const FullScreenHero = () => {
         </div>
         <a
           href='https://discord.com/invite/xTxqZGAj'
-          className='mt-6 w-64 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
+          className='mt-6 w-64 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sapphire bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
           target='_blank'
           rel='noreferrer'
         >
