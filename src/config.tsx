@@ -37,7 +37,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='og:site_name' content={title} />
         <meta name='og:description' content={description} />
 
-        <link rel='apple-touch-icon' href='/icons/apple-touch-icon.png' />
+        {/* <link rel='apple-touch-icon' href='/icons/apple-touch-icon.png' />
         <link
           rel='apple-touch-icon'
           sizes='16x16'
@@ -59,7 +59,7 @@ const Header = ({ title = titleDefault }) => {
           color='#000000'
           href='/icons/safari-pinned-tab.svg'
         />
-        <link rel='apple-touch-startup-image' href='/startup.png' />
+        <link rel='apple-touch-startup-image' href='/startup.png' /> */}
 
         {/* Meta Tags for HTML pages on Mobile */}
         {/* <meta name="format-detection" content="telephone=yes"/>
@@ -76,7 +76,7 @@ const Header = ({ title = titleDefault }) => {
         documentation: https://dev.twitter.com/cards/getting-started
         Be sure validate your Twitter card markup on the documentation site. */}
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:site' content='@onirenaud' />
+        <meta name='twitter:site' content='@DHOUorg' />
       </Head>
     </>
   )
