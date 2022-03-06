@@ -24,7 +24,7 @@ export default Page
 export async function getStaticProps() {
   return {
     props: {
-      title: 'Digital Humanitarians',
+      title: 'Digital Humanitarians Organising for Ukraine',
     },
   }
 }
