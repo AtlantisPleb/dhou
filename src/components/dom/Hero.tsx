@@ -159,7 +159,7 @@ export default function Example() {
       <div className='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
         <img
           className='h-56 w-full object-contain object-right sm:h-72 md:h-96 lg:w-full lg:h-full'
-          src='/img/logo-rough.jpg'
+          src='/img/main-logo.png'
           style={{ backgroundColor: 'rgb(21,23,28)' }}
           alt=''
         />

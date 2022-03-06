@@ -5,7 +5,11 @@ export const FullScreenHero = () => {
       style={{ backgroundColor: 'rgb(21,23,28)' }}
     >
       <div className='-mt-16 flex flex-col justify-center items-center'>
-        <img className='max-w-xl' src='/img/logo-rough.jpg' alt='' />
+        <img
+          className='max-w-lg mb-8'
+          src='/img/main-logo.png'
+          alt='Digital Humanitarians Organising for Ukraine'
+        />
         <div className='rounded-md shadow'>
           <a
             href='https://docs.google.com/document/d/1mVh71Pu82yix8UzUZY1N_pB6gv2byVJhwQERpRHYioI/edit#heading=h.q2b1jbqhh0az'
