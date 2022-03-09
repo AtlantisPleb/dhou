@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         sapphire: '#005BBB',
+        twitterblue: '#1da1f2',
       },
     },
   },
