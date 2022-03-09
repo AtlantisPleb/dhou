@@ -2,7 +2,10 @@ export const FullScreenHero = () => {
   return (
     <div
       className='h-screen w-screen flex justify-center items-center'
-      style={{ backgroundColor: 'rgb(21,23,28)' }}
+      style={{
+        background:
+          'linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(21,23,28) 100%)',
+      }}
     >
       <div className='-mt-16 flex flex-col justify-center items-center'>
         <img
