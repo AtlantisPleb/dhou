@@ -20,6 +20,12 @@ const Page = () => {
           options={{ align: 'center' }}
         />
       </div>
+      <div className='py-12 w-full bg-white'>
+        <TwitterTweetEmbed
+          tweetId={'1503519148269256713'}
+          options={{ align: 'center' }}
+        />
+      </div>
     </div>
   )
 }
