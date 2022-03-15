@@ -24,7 +24,7 @@ export const FullScreenHero = () => {
           </a>
         </div>
         <a
-          href='https://discord.gg/uabXunrK'
+          href='https://discord.gg/HNwbBN67HK'
           className='mt-6 w-64 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-sapphire bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10'
           target='_blank'
           rel='noreferrer'
