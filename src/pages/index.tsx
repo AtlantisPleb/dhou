@@ -14,15 +14,15 @@ const Page = () => {
           </div>
         </a>
       </div>
-      <div className='py-12 w-full bg-white'>
+      <div className='pt-12 w-full bg-white'>
         <TwitterTweetEmbed
-          tweetId={'1501248914132897799'}
+          tweetId={'1503519148269256713'}
           options={{ align: 'center' }}
         />
       </div>
-      <div className='py-12 w-full bg-white'>
+      <div className='pt-12 w-full bg-white'>
         <TwitterTweetEmbed
-          tweetId={'1503519148269256713'}
+          tweetId={'1501248914132897799'}
           options={{ align: 'center' }}
         />
       </div>
